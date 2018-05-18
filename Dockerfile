@@ -1,4 +1,4 @@
-FROM ivankrizsan/elastalert AS py-ea
+FROM mcolmant/elastalert-docker AS py-ea
 FROM node:alpine
 LABEL maintainer="BitSensor <dev@bitsensor.io>"
 EXPOSE 3030
